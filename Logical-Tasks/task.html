@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // QS-13
+
+        //   let n = parseInt(prompt("Enter the number of terms :"))
+        //     let num1=0,num2=1;
+        //     let num3;
+
+        //     num3 = num1 + num2;
+
+        //       console.log("fibonacci Series : ");
+        //       console.log(num1);
+        //       console.log(num2);
+
+        //     for(let i=3; i<=n; i++){
+        //     	console.log(num3);
+        //     	num1 = num2;
+        //     	num2 = num3;
+        //     	num3 = num1 + num2
+        //       }
+
+        // QS-13 End
+
+        // let num = parseInt(prompt('enter the number'));
+
+        // if (num < 1 || num > 1000) {
+        //     alert('enter a number between 1 to 1000')
+        // } else {
+        //     if (isArmstrong(num)) {
+        //         console.log(`${num} is an Armstrong number.`);
+        //     } else {
+        //         console.log(`${num} is not an Armstrong number.`);
+        //     }
+        // }
+
+        // // Function to check if a number is an Armstrong number
+        // function isArmstrong(number) {
+        //     const digits = number.toString().split('');
+        //     const numDigits = digits.length;
+        //     const sum = digits.reduce((acc, digit) => acc + Math.pow(parseInt(digit), numDigits), 0);
+        //     return sum === number;
+        // }
+
+        // ===================================
+
+        // Prompt the user to enter a binary number
+        const binary = prompt("Enter a binary number:");
+
+        // Validate the input to ensure it's a binary number
+        if (/^[01]+$/.test(binary)) {
+            const decimal = parseInt(binary, 2); // Convert binary to decimal
+            console.log(`The decimal equivalent of binary ${binary} is ${decimal}.`);
+        } else {
+            console.log("Invalid input. Please enter a valid binary number (only 0s and 1s).");
+        }
+
+    </script>
+</body>
+
+</html>
