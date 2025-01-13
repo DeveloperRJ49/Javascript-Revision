@@ -1,11 +1,12 @@
-//var c = 300
-let a = 300
-if (true) {
-    let a = 10
-    const b = 20
-    // console.log("INNER: ", a);
+// var c = 300
+// let a = 300
+// if (true) {
+//     let a = 10
+//     const b = 20
+//     console.log("INNER: ", a);
+//     console.log("INNER: ", b);
     
-}
+// }
 
 
 
@@ -14,31 +15,31 @@ if (true) {
 // console.log(c);
 
 
-function one(){
-    const username = "hitesh"
+// function one(){
+//     const username = "hitesh"
 
-    function two(){
-        const website = "youtube"
-        console.log(username);
-    }
+//     function two(){
+//         const website = "youtube"
+//         console.log(username);
+//     }
     // console.log(website);
 
-     two()
+    //  two()
 
-}
+// }
 
 // one()
 
-if (true) {
-    const username = "hitesh"
-    if (username === "hitesh") {
-        const website = " youtube"
-        // console.log(username + website);
-    }
+// if (true) {
+//     const username = "hitesh"
+//     if (username === "hitesh") {
+//         const website = " youtube"
+//         console.log(username + website);
+//     }
     // console.log(website);
-}
-
+// }
 // console.log(username);
+
 
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
@@ -46,11 +47,15 @@ if (true) {
 
 console.log(addone(5))
 
+//   Normal Function
+
 function addone(num){
     return num + 1
 }
 
 
+
+//   Expression function
 
 addTwo(5)
 const addTwo = function(num){
