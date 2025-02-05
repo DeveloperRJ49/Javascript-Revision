@@ -9,19 +9,19 @@
 // Add mathematical decimals-------------------------------------------
 // console.log(balance.toFixed(2));
 
-const otherNumber = 123.8966
+// const otherNumber = 123.8966
 
 // Give a value acording to rule of maths------------------------------
 
 // console.log(otherNumber.toPrecision(3));
 
-const hundreds = 1000000
+// const hundreds = 1000000
 //  Give a local string according to cuntries countation ex en_IN for indian value----------------------
 // console.log(hundreds.toLocaleString('en-IN'));
 
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
 
-console.log(Math);
+// console.log(Math);
 
 // Return a Absolute(+) value
 
@@ -36,6 +36,7 @@ console.log(Math);
 //  Round up in Lovest value-------------------------------
 
 // console.log(Math.floor(4.9));
+// console.log(Math.floor([]));
 // console.log(Math.min(4, 3, 6, 8));
 // console.log(Math.max(4, 3, 6, 8));
 

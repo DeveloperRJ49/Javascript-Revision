@@ -4,33 +4,39 @@
 
 // const score = 100
 // const scoreValue = 100.3
+// console.log(typeof scoreValue);
+
 
 // const isLoggedIn = false
+// console.log(typeof isLoggedIn);
 // const outsideTemp = null
 // let userEmail;
+// console.log(typeof userEmail);
+
 
 // const id = Symbol('123')
 // const anotherId = Symbol('123')
+// console.log(typeof id);
+// console.log(typeof anotherId);
 
-// console.log(id === anotherId);
+// console.log(id === anotherId); // false
 
 // const bigNumber = 3456543576654356754n
-
-
+// console.log(typeof bigNumber); // bigint
 
 // Reference (Non primitive)
 
 // Array, Objects, Functions
 
-const heros = ["shaktiman", "naagraj", "doga"];
-let myObj = {
-    name: "Sparky",
-    age: 22,
-}
+// const heros = ["shaktiman", "naagraj", "doga"];
+// let myObj = {
+//     name: "Sparky",
+//     age: 22,
+// }
 
-const myFunction = function(){
-    console.log("Hello world");
-}
+// const myFunction = function(){
+//     console.log("Hello world");
+// }
 
 // console.log(typeof anotherId);
 

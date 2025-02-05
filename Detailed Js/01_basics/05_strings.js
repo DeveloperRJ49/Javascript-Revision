@@ -1,11 +1,11 @@
-const name = "Sparky"
-const repoCount = 50
+// const name = "Sparky "
+// const repoCount = 50
 
-// console.log(name + repoCount + "theCoder");
+// console.log(name + repoCount + " theCoder");
 
 // console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
-const gameName = new String('call-Of-Duty') 
+// const gameName = new String('call-Of-Duty') 
 
 // console.log(gameName[1]);
 // console.log(gameName.slice(4,gameName.length));
@@ -19,16 +19,16 @@ const gameName = new String('call-Of-Duty')
 // const newString = gameName.substring(0,6)
 // console.log(newString);
 
-// const anotherString = gameName.slice(-2, 4)
+// const anotherString = gameName.slice(-11, 4)
 // console.log(anotherString);
 
 // const newStringOne = "   Sparky    "
 // console.log(newStringOne);
 // console.log(newStringOne.trim());
 
-const url = "https://Sparky.com/Sparky%20choudhary"
+const url = "https://Sparky.com/Sparky%20Tdm"
 
-console.log(url.replace('%20', '-'));
+console.log(url.replace('%20', '_'));
 
 console.log(url.includes('.co'));
 
