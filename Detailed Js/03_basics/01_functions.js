@@ -8,7 +8,7 @@
 //     console.log("I");
 // }
 
-// sayMyName()
+// sayMyName();
 
 // function addTwoNumbers(number1, number2){
 //     console.log(number1 + number2);
@@ -47,18 +47,18 @@
 
 // const user = {
 //     username: "sparky",
-//     prices: 199
+//     age: 20
 // }
 
 // function handleObject(anyobject){
-//     console.log(`Username is ${anyobject.username} and price is ${anyobject.prices}`);
+//     console.log(`Username is ${anyobject.username} and Age is ${anyobject.age}`);
 // }
 
 // handleObject(user)
 // handleObject({
 //     username: "sam",
-//     price: 399
-// })
+//     age: 50
+// });
 
 // const myNewArray = [200, 400, 100, 600]
 

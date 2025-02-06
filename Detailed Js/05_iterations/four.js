@@ -5,15 +5,15 @@ const myObject = {
     swift: "swift by apple"
 }
 
-for (const key in myObject) {
-    //console.log(`${key} shortcut is for ${myObject[key]}`);
-}
+// for (const key in myObject) {
+//     console.log(`${key} shortcut is for ${myObject[key]}`);
+// }
 
-const programming = ["js", "rb", "py", "java", "cpp"]
+// const programming = ["js", "rb", "py", "java", "cpp"]
 
-for (const key in programming) {
-    //console.log(programming[key]);
-}
+// for (const key in programming) {
+//     console.log(programming[key]);
+// }
 
 // const map = new Map()
 // map.set('IN', "India")
