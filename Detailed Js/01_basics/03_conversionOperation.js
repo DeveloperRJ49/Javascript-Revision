@@ -1,6 +1,6 @@
-let score = "Sparky"
+// let score = "Sparky";
 
-console.log(typeof score);
+// console.log(typeof score);
 // console.log(typeof (score));
 
 // let valueInNumber = Number(score)
@@ -12,10 +12,10 @@ console.log(typeof score);
 // "33abc" => NaN
 //  true => 1; false => 0
 
-// let isLoggedIn = "Sparky"
+let isLoggedIn = "Sparky"
 
-// let booleanIsLoggedIn = Boolean(isLoggedIn);
-//  console.log(booleanIsLoggedIn);
+let booleanIsLoggedIn = Boolean(isLoggedIn);
+console.log(booleanIsLoggedIn);
 
 // 1 => true; 0 => false
 // "" => false
