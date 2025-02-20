@@ -96,7 +96,7 @@
 //     fact *= i;
 // }
 
-// console.log("factoria; id  => " + fact);
+// console.log("factorial => " + fact);
 
 // WAP to print fibbonacci sereas       ----------------------------------------------------------------------------------------------------  
 
