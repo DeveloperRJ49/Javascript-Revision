@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>user</title>
+    <style>
+      .nav {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+      }
+      .nav div a {
+        text-decoration: none;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+        <div><a href="/local/login.html">login</a></div>
+        <div><a href="/local/admin/admin.html">admin</a></div>
+        <div><a href="/local/user/user.html">user</a></div>
+    </div>
+    <p>user page</p>
+    <table width="1000px" border="1px" cellpadding="10px" cellspacing="0px">
+      <thead>
+        <tr>
+          <td>productname</td>
+          <td>price</td>
+        </tr>
+      </thead>
+      <tbody id="productshow"></tbody>
+    </table>
+    <script>
+      const productlist = JSON.parse(localStorage.getItem("product"));
+      function showProduct() {
+        let productshow = document.getElementById("productshow");
+        productshow.innerHTML = "";
+        productlist.map((value) => {
+          let row = document.createElement("tr");
+          row.innerHTML = `
+            <td>${value.product}</td>
+            <td>${value.price}</td>
+            `;
+          productshow.appendChild(row);
+        });
+      }
+      showProduct();
+    </script>
+  </body>
+</html>

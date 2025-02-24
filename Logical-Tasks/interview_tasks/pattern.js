@@ -133,13 +133,13 @@
 // 2 2
 // 1
 
-for(let i=5; i>=1; i--){
-    let row = "";
-    for(let j=i; j>=1; j--){
-        row += i + " "
-    }
-    console.log(row);
-}
+// for(let i=5; i>=1; i--){
+//     let row = "";
+//     for(let j=i; j>=1; j--){
+//         row += i + " "
+//     }
+//     console.log(row);
+// }
 
 // * * * * *
 // * * * *

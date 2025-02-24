@@ -12,6 +12,7 @@
 // const outsideTemp = null
 // let userEmail;
 // console.log(typeof userEmail);
+// console.log(typeof outsideTemp);
 
 
 // const id = Symbol('123')

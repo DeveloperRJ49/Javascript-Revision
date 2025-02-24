@@ -1,4 +1,4 @@
-// let score = "Sparky";
+let score = "Sparky";
 
 // console.log(typeof score);
 // console.log(typeof (score));
@@ -26,6 +26,8 @@
 // let stringNumber = String(someNumber)
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
+// console.log(typeof someNumber);
+
 
 // *********************** Operations ***********************
 
@@ -58,16 +60,16 @@
 // console.log(+true);
 // console.log(+"");
 
-let num1, num2, num3
+// let num1, num2, num3
 
-num1 = num2 = num3 = 2 + 2
+// num1 = num2 = num3 = 2 + 2
 
-console.log(num1);
+// console.log(num1);
 
 
-let gameCounter = 100
-++gameCounter;
-console.log(gameCounter);
+// let gameCounter = 100
+// ++gameCounter;
+// console.log(gameCounter);
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion

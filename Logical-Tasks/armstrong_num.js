@@ -1,19 +1,23 @@
-// ==========   Armstrong Number From(1 to 1000) ===================
+for (let num = 1; num <= 1000; num++) {
+    let originalNum = num;
+    let sum = 0;
+    let temp = num;
+    let count = 0;
 
-let num = parseInt(prompt('enter the number'));
-
-if (num < 1 || num > 1000) {
-    alert('enter a number between 1 to 1000')
-} else {
-    if (isArmstrong(num)) {
-        console.log(`${num} is an Armstrong number.`);
-    } else {
-        console.log(`${num} is not an Armstrong number.`);
+    while (temp > 0) {
+        count++;
+        temp = Math.floor(temp / 10);
     }
-}
-function isArmstrong(number) {
-    const digits = number.toString().split('');
-    const numDigits = digits.length;
-    const sum = digits.reduce((acc, digit) => acc + Math.pow(parseInt(digit), numDigits), 0);
-    return sum === number;
+
+    temp = num;
+
+    while (temp > 0) {
+        let digit = temp % 10;
+        sum += Math.pow(digit, count);
+        temp = Math.floor(temp / 10);
+    }
+
+    if (sum === originalNum) {
+        console.log(originalNum);
+    }
 }

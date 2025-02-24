@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>arrinset</title>
+  </head>
+  <body>
+
+
+    <script>
+      //   let value = parseInt(prompt("enter value"));
+      //   const arr = [value];
+      //   for (i = 0; i < value; i++) {
+      //     arr[i] = parseInt(prompt("enter number"));
+      //     // console.log(i + "=" + arr[i] + "<br>");
+      //     console.log(i + "=" + arr[i]);
+
+      //   }
+
+      const array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+      let position = 3;
+      let value = 30;
+
+      for (let i = array.length; i >= position; i--) {
+        array[i] = array[i - 1];
+      }
+      array[position - 1] = value;
+      document.write("<h2>Array after insertion:</h2><ol>");
+      for (const num of array) {
+        document.write(`<li>${num}</li>`);
+      }
+      document.write("</ol>");
+
+      
+    </script>
+  </body>
+</html>

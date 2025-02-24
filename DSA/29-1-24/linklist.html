@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>linked list</title>
+  </head>
+  <body>
+    <script>
+      class Node {
+        constructor(data) {
+          this.head = {
+            value: data,
+            next: null,
+          };
+          this.tail = this.head;
+          this.size = 1;
+        }
+
+        add(data) {
+          const node = {
+            value: data,
+            next: null,
+          };
+
+          console.log(node);
+          this.tail.next = node;
+          this.tail = node;
+          this.size += 1;
+        }
+
+        print() {
+          let count = 0;
+          let current = this.head;
+
+          while (count < this.size) {
+            console.log(current, "current");
+            current = current.next;
+            count++;
+          }
+        }
+        delete(number) {
+          if (this.head == null || number > this.size) return false;
+          if (number === 0) {
+            this.head = this.head.next;
+            this.tail.next = this.head;
+          } else {
+            let previews = null;
+            let currents = this.head;
+            let index = 0;
+            while (index++ < number) {
+              previews = currents;
+              currents = currents.next;
+            }
+            previews.next = currents.next;
+            if (currents.next == null) {
+              this.tail = previews;
+            }
+          }
+        }
+      }
+      const node = new Node(50);
+      node.add(60);
+      node.add(70);
+      node.add(80);
+      node.add(90);
+      node.print();
+      node.delete(2);
+      console.log(node);
+    </script>
+  </body>
+</html>

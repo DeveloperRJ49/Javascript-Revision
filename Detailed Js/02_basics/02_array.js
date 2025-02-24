@@ -17,7 +17,7 @@ const dc_heros = ["superman", "flash", "batman"]
 // console.log(another_array[5]);
 
 
-// const real_another_array = another_array.flat(Infinity)
+// const real_another_array = another_array.flat(Infinity);
 // console.log(real_another_array);
 
 

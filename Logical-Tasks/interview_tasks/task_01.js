@@ -9,6 +9,20 @@
 // }
 // console.log(sum);
 
+
+// Wap to print sum of 1st abd Last digit in a number        ----------------------------------------------------------------------------------------------------
+
+// let num = Number(prompt("Enter Any Number"))
+// let sum = 0;
+// let ld = num % 10, fd;
+
+// while (num >= 10) {
+//     num = (num - (num % 10)) / 10;
+//     fd = num;
+//     sum = fd + ld;
+// }
+// console.log(sum);
+
 // Swap A 2 variable using 3rd variable     ----------------------------------------------------------------------------------------------------
 
 // let a = 5
@@ -51,12 +65,12 @@
 
 // console.log(a, b, c);
 
-// WAP to FIND Factor of a number       ----------------------------------------------------------------------------------------------------  
+// WAP to FIND Factor of a number       ----------------------------------------------------------------------------------------------------
 
 // let num = Number(prompt("Enter Any Number"));
 // let i = 1;
 
-// While Loop
+// // While Loop
 
 // while (i <= num) {
 //     if (num % i == 0) {
@@ -73,7 +87,7 @@
 //     }
 // }
 
-// WAP to FIND Factorial of a number       ----------------------------------------------------------------------------------------------------  
+// WAP to FIND Factorial of a number       ----------------------------------------------------------------------------------------------------
 
 // let num = Number(prompt("Enter Any Number"));
 // let fact = 1;
@@ -98,7 +112,7 @@
 
 // console.log("factorial => " + fact);
 
-// WAP to print fibbonacci sereas       ----------------------------------------------------------------------------------------------------  
+// WAP to print fibbonacci sereas       ----------------------------------------------------------------------------------------------------
 
 // let num = Number(prompt("ENTER ANY NUMBER"));
 // let a = 0;
@@ -125,25 +139,25 @@
 //     b = next;
 // }
 
-// WAP to check prime number      ----------------------------------------------------------------------------------------------------  
+// WAP to check prime number      ----------------------------------------------------------------------------------------------------
 // let num = Number(prompt("ENTER ANY NUMBER"));
 // let i = 2;
 
 // While Loop
 
-// while (i < num) {  
-//     if (num % i == 0) {  
+// while (i < num) {
+//     if (num % i == 0) {
 //         console.log("Not Prime");
 //         break;
 //     }
 //     i++;
 // }
 
-// if (i == num) {  
+// if (i == num) {
 //     console.log("Prime Number");
 // }
 
-// WAP to check ArmStrong number      ----------------------------------------------------------------------------------------------------  
+// WAP to check ArmStrong number      ----------------------------------------------------------------------------------------------------
 
 let num = Number(prompt("Enter any Number"));
 let sum = 0;
@@ -151,7 +165,6 @@ let digits = 0;
 
 for (let temp = num; temp > 0; temp = Math.floor(temp / 10)) {
     digits++;
-    console.log(digits);
 }
 
 for (let temp = num; temp > 0; temp = Math.floor(temp / 10)) {
@@ -164,5 +177,4 @@ if (sum == num) {
 
 } else {
     console.log("NOt Armstrong");
-
 }
