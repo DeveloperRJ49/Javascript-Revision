@@ -140,41 +140,41 @@
 // }
 
 // WAP to check prime number      ----------------------------------------------------------------------------------------------------
-// let num = Number(prompt("ENTER ANY NUMBER"));
-// let i = 2;
+let num = Number(prompt("ENTER ANY NUMBER"));
+let i = 2;
 
 // While Loop
 
-// while (i < num) {
-//     if (num % i == 0) {
-//         console.log("Not Prime");
-//         break;
-//     }
-//     i++;
-// }
+while (i < num) {
+    if (num % i == 0) {
+        console.log("Not Prime");
+        break;
+    }
+    i++;
+}
 
-// if (i == num) {
-//     console.log("Prime Number");
-// }
+if (i == num) {
+    console.log("Prime Number");
+}
 
 // WAP to check ArmStrong number      ----------------------------------------------------------------------------------------------------
 
-let num = Number(prompt("Enter any Number"));
-let sum = 0;
-let digits = 0;
+// let num = Number(prompt("Enter any Number"));
+// let sum = 0;
+// let digits = 0;
 
-for (let temp = num; temp > 0; temp = Math.floor(temp / 10)) {
-    digits++;
-}
+// for (let temp = num; temp > 0; temp = Math.floor(temp / 10)) {
+//     digits++;
+// }
 
-for (let temp = num; temp > 0; temp = Math.floor(temp / 10)) {
-    let rem = temp % 10;
-    sum = sum + Math.pow(rem, digits);
-}
+// for (let temp = num; temp > 0; temp = Math.floor(temp / 10)) {
+//     let rem = temp % 10;
+//     sum = sum + Math.pow(rem, digits);
+// }
 
-if (sum == num) {
-    console.log("Armstrong");
+// if (sum == num) {
+//     console.log("Armstrong");
 
-} else {
-    console.log("NOt Armstrong");
-}
+// } else {
+//     console.log("NOt Armstrong");
+// }
